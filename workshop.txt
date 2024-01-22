@@ -28,6 +28,13 @@ A shopping cart checkout feature that allows a user to check out as a guest (wit
 They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
 Think about the following; you may need to make assumptions or decisions about the prompt and how the feature should behave:
 What should happen if the cart is empty?
+- If the cart is empty it does not allow them the ability to checkout.  Once an item is placed in the cart, it then shows them the 
+- ability to checkout.
 What needs to be shown to the user at each step of check out?
+- Checkout should have shipping location.  If the shipment is out of a certain region or country it should highlight those risk
+- and display them to the customer.  The checkout will have multiple options for users to input credit cards/checking account/crypto etc.
+- The checkout will also offer them an opportunity to "create an account at checkout" OR they can just have their order be sent to
+- a one time email address.
 What behaviors of this feature does the prompt miss or gloss over?
+- The prompt could gloss over the benefits of being an account holder or the future ease of shopping back with this website.
 Hint: Observe the shopping cart and checkout features of some popular websites to get some ideas!
